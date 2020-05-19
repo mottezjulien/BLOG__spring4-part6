@@ -1,12 +1,12 @@
-package fr.jmottez.lessons.spring.spring4.user.facade.controller;
+package fr.lapausedev.spring.user.facade.controller;
 
 
-import fr.jmottez.lessons.spring.spring4.generic.facade.exception.InternalServerErrorException;
-import fr.jmottez.lessons.spring.spring4.generic.facade.exception.ResourceNotFoundException;
-import fr.jmottez.lessons.spring.spring4.generic.repository.RepositoryException;
-import fr.jmottez.lessons.spring.spring4.user.core.repository.UserRepository;
-import fr.jmottez.lessons.spring.spring4.user.facade.transport.assembler.UserDTOAssembler;
-import fr.jmottez.lessons.spring.spring4.user.facade.transport.object.UserDTO;
+import fr.lapausedev.spring.generic.facade.exception.InternalServerErrorException;
+import fr.lapausedev.spring.generic.facade.exception.ResourceNotFoundException;
+import fr.lapausedev.spring.generic.repository.RepositoryException;
+import fr.lapausedev.spring.user.core.repository.UserRepository;
+import fr.lapausedev.spring.user.facade.transport.assembler.UserDTOAssembler;
+import fr.lapausedev.spring.user.facade.transport.object.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

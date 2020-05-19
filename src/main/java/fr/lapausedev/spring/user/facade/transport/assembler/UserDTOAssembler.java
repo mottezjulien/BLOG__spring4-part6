@@ -1,7 +1,7 @@
-package fr.jmottez.lessons.spring.spring4.user.facade.transport.assembler;
+package fr.lapausedev.spring.user.facade.transport.assembler;
 
-import fr.jmottez.lessons.spring.spring4.user.core.entity.UserEntity;
-import fr.jmottez.lessons.spring.spring4.user.facade.transport.object.UserDTO;
+import fr.lapausedev.spring.user.core.entity.UserEntity;
+import fr.lapausedev.spring.user.facade.transport.object.UserDTO;
 
 public class UserDTOAssembler {
 

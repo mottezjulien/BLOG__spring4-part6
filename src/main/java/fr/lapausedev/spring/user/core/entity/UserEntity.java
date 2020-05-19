@@ -1,4 +1,4 @@
-package fr.jmottez.lessons.spring.spring4.user.core.entity;
+package fr.lapausedev.spring.user.core.entity;
 
 public class UserEntity {
 

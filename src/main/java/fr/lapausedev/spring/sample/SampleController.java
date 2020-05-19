@@ -1,4 +1,4 @@
-package fr.jmottez.lessons.spring.spring4.sample;
+package fr.lapausedev.spring.sample;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,13 +1,13 @@
-package fr.jmottez.lessons.spring.spring4;
+package fr.lapausedev.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringApplicationRunner {
+public class Runner {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SpringApplicationRunner.class, args);
+		SpringApplication.run(Runner.class, args);
 	}
 
 }

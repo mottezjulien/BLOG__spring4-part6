@@ -1,9 +1,9 @@
-package fr.jmottez.lessons.spring.spring4.user.core.repository.imp;
+package fr.lapausedev.spring.user.core.repository.imp;
 
 
-import fr.jmottez.lessons.spring.spring4.generic.repository.RepositoryException;
-import fr.jmottez.lessons.spring.spring4.user.core.entity.UserEntity;
-import fr.jmottez.lessons.spring.spring4.user.core.repository.UserRepository;
+import fr.lapausedev.spring.generic.repository.RepositoryException;
+import fr.lapausedev.spring.user.core.entity.UserEntity;
+import fr.lapausedev.spring.user.core.repository.UserRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
