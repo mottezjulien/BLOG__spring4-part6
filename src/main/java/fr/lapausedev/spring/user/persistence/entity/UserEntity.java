@@ -1,4 +1,4 @@
-package fr.lapausedev.spring.user.core.entity;
+package fr.lapausedev.spring.user.persistence.entity;
 
 public class UserEntity {
 

@@ -4,7 +4,7 @@ package fr.lapausedev.spring.user.facade.controller;
 import fr.lapausedev.spring.generic.facade.exception.InternalServerErrorException;
 import fr.lapausedev.spring.generic.facade.exception.ResourceNotFoundException;
 import fr.lapausedev.spring.generic.repository.RepositoryException;
-import fr.lapausedev.spring.user.core.repository.UserRepository;
+import fr.lapausedev.spring.user.persistence.repository.UserRepository;
 import fr.lapausedev.spring.user.facade.transport.assembler.UserDTOAssembler;
 import fr.lapausedev.spring.user.facade.transport.object.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping(value = "/rest/user")
-public class UserSpringRestController {
+public class UserController {
 
 	@Autowired
 	private UserRepository repository;
